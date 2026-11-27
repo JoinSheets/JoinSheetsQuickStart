@@ -21,7 +21,6 @@ classDef stage fill:#f2f5f7,stroke:#d98f2b,stroke-width:2px,color:#141010
 classDef io fill:#6e6e73,stroke:#141010,stroke-width:2px,color:#ffffff
 class D,F,T stage
 class X io
-linkStyle 0,1 stroke:#ffffff,stroke-width:2px
 {{< /mermaid >}}
 
 1. [Запуск приложения](01-open-the-app/)
