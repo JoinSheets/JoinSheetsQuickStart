@@ -11,12 +11,15 @@ JoinSheets — браузерный конструктор таблиц: он о
 между которыми Вы можете переключаться кнопками главного меню приложения.
 
 {{< mermaid >}}
+%%{init: {'block': {'padding': 40}}}%%
 block-beta
 columns 3
 D("Данные") F("Поля") T("Таблица")
 X("Excel или CSV"):3
-X --> D
+D --> F
+F --> T
 T --> X
+X --> D
 classDef stage fill:#f2f5f7,stroke:#d98f2b,stroke-width:2px,color:#141010
 classDef io fill:#6e6e73,stroke:#141010,stroke-width:2px,color:#ffffff
 class D,F,T stage
