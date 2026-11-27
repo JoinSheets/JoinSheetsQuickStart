@@ -11,20 +11,17 @@ JoinSheets — браузерный конструктор таблиц: он о
 между которыми Вы можете переключаться кнопками главного меню приложения.
 
 {{< mermaid >}}
-flowchart TD
-  subgraph top[ ]
-    direction LR
-    D(Данные) --> F(Поля) --> T(Таблица)
-  end
-  X(Excel или CSV)
-  T --> X
-  X --> D
-  style top fill:none,stroke:none
-  classDef stage fill:#f2f5f7,stroke:#2b2b2e,stroke-width:2px,color:#141010
-  classDef io fill:#6e6e73,stroke:#2b2b2e,stroke-width:2px,color:#ffffff
-  class D,F,T stage
-  class X io
-  linkStyle 0,1,2,3 stroke:#d98f2b,stroke-width:2px
+block-beta
+columns 3
+D("Данные") F("Поля") T("Таблица")
+X("Excel или CSV"):3
+X --> D
+T --> X
+classDef stage fill:#f2f5f7,stroke:#d98f2b,stroke-width:2px,color:#141010
+classDef io fill:#6e6e73,stroke:#141010,stroke-width:2px,color:#ffffff
+class D,F,T stage
+class X io
+linkStyle 0,1 stroke:#ffffff,stroke-width:2px
 {{< /mermaid >}}
 
 1. [Запуск приложения](01-open-the-app/)
