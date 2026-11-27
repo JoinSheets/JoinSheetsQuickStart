@@ -1,5 +1,5 @@
 +++
-title = "5. Save Your Result"
+title = "Save Your Result"
 weight = 5
 +++
 

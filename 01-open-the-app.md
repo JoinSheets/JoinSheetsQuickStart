@@ -1,5 +1,5 @@
 +++
-title = "1. Launch the App"
+title = "Launch the App"
 weight = 1
 +++
 

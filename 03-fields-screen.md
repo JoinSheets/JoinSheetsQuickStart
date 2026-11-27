@@ -1,5 +1,5 @@
 +++
-title = "3. The Fields Screen"
+title = "The Fields Screen"
 weight = 3
 +++
 

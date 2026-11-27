@@ -1,5 +1,5 @@
 +++
-title = "4. The Table Screen and Working with Data"
+title = "The Table Screen and Working with Data"
 weight = 4
 +++
 
